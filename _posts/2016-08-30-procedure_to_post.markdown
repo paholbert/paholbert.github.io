@@ -48,36 +48,42 @@ It excludes:
 ### Create a new repo on GitHub called &lt;username&gt;.github.io,
 
 where &lt;username&gt; is your id on GitHub, of course.
-	
+
+<!--
 <code class="error">BTW, what is your id on GitHub?</code>
+-->
 
 ### Clone this empty repo locally.
 
-'cd' to the stub for the area where you do your work. I call mine 'work' (creative, huh?).
-'clone' the empty repo.
-git clone https://github.com/&lt;username&gt;/&lt;username&gt;.github.io
+- 'cd' to the stub for the area where you do your work. I call mine 'work' (creative, huh?).
+- 'clone' the empty repo.
+
+<code>git clone https://github.com/&lt;username&gt;/&lt;username&gt;.github.io</code>
+
 This gives you 
-a definition for 'origin',
-an initialized local repo, and
-a workspace (with nothing in it).
+- a definition for 'origin',
+- an initialized local repo, and
+- a workspace (with nothing in it).
 
 ### Create a web page
 
-'cd' into the workspace
-echo "You could have used atom!" &gt; index.html
+- 'cd' into the workspace
+
+<code>echo "You could have used atom!" &gt; index.html</code>
 
 ### Commit to master on local repo
 
-git add .
-git commit -m '
-Brief description (&lt;50 chars), no period, \n
+<code>git add .</code>
 
+<code>git commit -m '
+Brief description (&lt;50 chars), no period, \n<br/>
+This is a blank line followed by<br/>
 More detailed description wrapped at 72 chars
-'
+'</code>
 
 ### Push local repo to GitHub
 
-git push origin master
+<code>git push origin master</code>
 
 ### View your New Awesome Web Site
 
