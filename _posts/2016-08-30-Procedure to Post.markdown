@@ -60,9 +60,12 @@ where &lt;username&gt; is your id on GitHub, of course.
 
 <code>git clone https://github.com/&lt;username&gt;/&lt;username&gt;.github.io</code>
 
-This gives you 
+This gives you:
+
 - a definition for 'origin',
+
 - an initialized local repo, and
+
 - a workspace (with nothing in it).
 
 ### Create a web page
