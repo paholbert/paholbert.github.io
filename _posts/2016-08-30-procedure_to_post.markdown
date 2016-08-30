@@ -1,4 +1,36 @@
 
+<style>
+body {
+	background-color: Linen;
+}
+.error {
+    color: red;
+}
+code.prompt {
+	color: CornflowerBlue; /* dark blue */
+}
+code.prompt-user {
+	color: Black; /*  */
+	background-color: LightGoldenRodYellow;
+}
+code.prompt-root {
+	color: GreenYellow; /*  */
+	background-color: Black;
+}
+code.input {
+	color: Maroon; /*  */
+}
+code.output {
+	color: Black; /* LightSkyBlue light blue */
+}
+pre.input {
+	color: Maroon;  /* maroon (same as code.input) */
+}
+pre.output {
+	color: LightSkyBlue;  /* light blue (same as code.output) */
+}
+</style>
+
 # Minimum Configuration to Display a Website on GitHub
 
 Here's the very minimum you have to do to get your site on GitHub.
